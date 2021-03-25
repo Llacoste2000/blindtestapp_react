@@ -1,0 +1,38 @@
+.asap-regular-normal-fog-14px {
+	color: var(--fog);
+	font-family: "Asap-Regular", Helvetica;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+.input {
+	align-items: center;
+	background-color: var(--desert-storm);
+	border-radius: 8px;
+	display: flex;
+	height: 40px;
+	overflow: hidden;
+	padding: 5px 20px;
+}
+.text-cursor {
+	align-items: flex-start;
+	display: flex;
+	flex: 1;
+}
+.text-i151434141504 {
+	color: #451c7c;
+	background-color: transparent;
+	border: 0;
+	height: 30px;
+	outline: none;
+	padding: 0;
+	text-align: left;
+	flex: 1;
+}
+.text-i151434141504::placeholder {
+	color: rgba(216, 209, 254, 0.6);
+}
+:root {
+	--desert-storm: rgba(248, 248, 250, 1);
+	--fog: rgba(216, 209, 254, 1);
+}

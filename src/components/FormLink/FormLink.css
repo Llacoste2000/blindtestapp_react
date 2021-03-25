@@ -1,0 +1,15 @@
+.asap-regular-normal-meteorite-16px {
+	color: var(--meteorite);
+	font-family: "Asap-Regular", Helvetica;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+.text-1 {
+	letter-spacing: 0px;
+	min-height: 18px;
+	text-decoration: underline;
+}
+:root {
+	--meteorite: rgba(69, 28, 124, 1);
+}

@@ -1,0 +1,26 @@
+.music-buttons-play {
+	cursor: pointer;
+	user-select: none;
+	background-color: var(--dull-lavender);
+	border-radius: 150px;
+	box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.176);
+	height: 96px;
+	overflow: hidden;
+	pointer-events: auto;
+	position: relative;
+	transition: all 0.2s ease;
+	width: 96px;
+}
+.music-buttons-play:hover {
+	transform: scale(0.9);
+}
+.vector {
+	height: 32px;
+	left: 33px;
+	position: absolute;
+	top: 32px;
+	width: 29px;
+}
+:root {
+	--dull-lavender: rgba(169, 154, 255, 1);
+}

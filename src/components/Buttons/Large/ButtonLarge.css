@@ -1,0 +1,27 @@
+.asap-medium-meteorite-20px {
+	color: var(--meteorite);
+	font-family: "Asap", Helvetica;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+}
+.label {
+	user-select: none;
+	padding: 0.8em 2em;
+}
+.primary-large {
+	cursor: pointer;
+	align-items: center;
+	background-color: var(--desert-storm);
+	border-radius: 8px;
+	display: flex;
+	overflow: hidden;
+	transition: all 0.2s ease;
+}
+.primary-large:hover {
+	transform: scale(0.95);
+}
+:root {
+	--desert-storm: rgba(248, 248, 250, 1);
+	--meteorite: rgba(69, 28, 124, 1);
+}

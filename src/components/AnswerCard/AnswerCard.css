@@ -1,0 +1,47 @@
+.answer-cards {
+	cursor: pointer;
+	border-radius: 15px;
+	transition: all 0.2s ease;
+}
+
+.success {
+	background-color: var(--feta);
+}
+.success .text {
+	color: var(--green-house);
+}
+.normal {
+	background-color: var(--magnolia);
+}
+.normal .text {
+	color: var(--stratos);
+}
+.error {
+	background-color: var(--wisp-pink);
+}
+.error .text {
+	color: var(--falu-red);
+}
+
+.answer-cards:hover {
+	transform: scale(0.9);
+}
+.text {
+	font-family: "Asap-Medium", Helvetica;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+}
+.titre-de-musique {
+	user-select: none;
+	padding: 30px 50px;
+	white-space: nowrap;
+}
+:root {
+	--magnolia: rgba(245, 241, 255, 1);
+	--stratos: rgba(7, 7, 67, 1);
+	--feta: rgba(242, 253, 236, 1);
+	--green-house: rgba(30, 69, 6, 1);
+	--falu-red: rgba(121, 21, 23, 1);
+	--wisp-pink: rgba(255, 243, 247, 1);
+}

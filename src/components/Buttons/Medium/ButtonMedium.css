@@ -1,0 +1,35 @@
+.asap-medium-meteorite-14px {
+	color: var(--meteorite);
+	font-family: "Asap", Helvetica;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+}
+.label {
+	user-select: none;
+	letter-spacing: 0px;
+	line-height: 20px;
+	min-height: 20px;
+	min-width: 44px;
+	text-align: center;
+	white-space: nowrap;
+}
+.primary-medium {
+	cursor: pointer;
+	align-items: center;
+	background-color: var(--desert-storm);
+	border-radius: 8px;
+	display: flex;
+	height: 36px;
+	overflow: hidden;
+	transition: all 0.2s ease;
+	padding: 0 18px;
+	width: 82px;
+}
+.primary-medium:hover {
+	transform: scale(0.9);
+}
+:root {
+	--desert-storm: rgba(248, 248, 250, 1);
+	--meteorite: rgba(69, 28, 124, 1);
+}

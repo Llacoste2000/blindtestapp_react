@@ -1,0 +1,65 @@
+.headerMain {
+	padding: 10px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.headerMain__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 1;
+}
+.headerMain__player {
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+.player__image {
+	flex: 1;
+	margin-right: 15px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.player__level {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.level__text {
+	font-family: "Asap";
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(7, 7, 67, 1);
+	margin-bottom: 10px;
+}
+.level__bar {
+	background-color: rgba(245, 241, 255, 1);
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100px;
+}
+.bar__progress {
+	width: 50px;
+	height: 5px;
+	background-color: rgba(169, 154, 255, 1);
+	border-radius: 16px 13px 13px 16px;
+}
+.headerMain__menu {
+	cursor: pointer;
+	user-select: none;
+	background-color: rgba(248, 248, 250, 1);
+	border-radius: 10px;
+	padding: 18px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 0.2s ease;
+	justify-content: center;
+}
+.headerMain__menu:hover {
+	transform: scale(0.9);
+}
